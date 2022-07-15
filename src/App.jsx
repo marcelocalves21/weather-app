@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import sun from './assets/sun.svg'
 
 function App() {
   
 
   return (
     <div className="App">
-      
+      <img src={sun} alt="" srcSet="" />
     </div>
   )
 }
